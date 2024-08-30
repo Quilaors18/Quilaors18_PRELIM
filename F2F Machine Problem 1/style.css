@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-image: url("peyt.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 70%;
+}
+
+h1 {
+    color: #1403fd;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 4px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #0400ff;
+    color: rgb(43, 255, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0e0bdb;
+}
+
+h2 {
+    color: #333;
+}
